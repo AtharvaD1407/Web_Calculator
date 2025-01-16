@@ -1,68 +1,68 @@
 body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: hsl(0, 0%, 95%);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
 
 }
 
 #display {
-    width: 410px;
-    height: 60px;
-    font-size: 5rem;
-    text-align: right;
-    padding: 36px;
-    background-color: hsl(0, 0%, 20%);
-    color: white;
-    overflow-x: hidden;
-    white-space: nowrap;
+  width: 410px;
+  height: 60px;
+  font-size: 5rem;
+  text-align: right;
+  padding: 36px;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  overflow-x: hidden;
+  white-space: nowrap;
 }
 
 #calculator{
-    font-family: Arial, sans-serif;
-    background-color: hsl(0, 0%, 15%);
-    border-radius: 60px;
-    max-width: 500px;
-    overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: hsl(0, 0%, 15%);
+  border-radius: 60px;
+  max-width: 500px;
+  overflow: hidden;
 }
 
 #keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 11px;
-    padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 11px;
+  padding: 25px;
 }
 
 button {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: none;
-    background-color: hsl(0, 0%, 30%);
-    color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    cursor: pointer;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: hsl(0, 0%, 40%);
+  background-color: hsl(0, 0%, 40%);
 }
 
 button:active {
-    background-color: hsl(0, 0%, 50%);
+  background-color: hsl(0, 0%, 50%);
 }
 
 .operator {
-    background-color: hsl(39, 100%, 50%);
+  background-color: hsl(39, 100%, 50%);
 }
 
 .operator:hover {
-    background-color: hsl(39, 100%, 60%);
+  background-color: hsl(39, 100%, 60%);
 }
 
 .operator:active {
-    background-color: hsl(39, 100%, 70%);
+  background-color: hsl(39, 100%, 70%);
 }
